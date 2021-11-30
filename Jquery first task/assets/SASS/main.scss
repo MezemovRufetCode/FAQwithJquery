@@ -1,0 +1,36 @@
+.FAQ{
+    .mylist{
+        .questions{
+            .Quest{
+                span{
+                    position: absolute;
+                    right: 10px;
+                }
+            }
+           
+        }
+    }
+}
+.black{
+    color: black;
+}
+.blue{
+    color: #005aff;
+}
+
+.zerodeg{
+    transform: rotate(0deg);
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.udeg{
+    transform: rotate(180deg);
+    transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.answer{
+    p{
+        color:#9f9f9f;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
